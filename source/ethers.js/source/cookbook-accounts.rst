@@ -178,7 +178,7 @@ a method that correctly encodes this checksum.
     //   - 24 bytes => 18 words
     //   - 28 bytes => 21 words
     //   - 32 bytes => 24 words
-    let bytes = ethers.utils.random(16);
+    let bytes = ethers.utils.randomBytes(16);
 
     // Select the language:
     //   - en, es, fr, ja, ko, it, zh_ch, zh_tw
