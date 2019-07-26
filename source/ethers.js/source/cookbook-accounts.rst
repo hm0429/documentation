@@ -170,7 +170,7 @@ a method that correctly encodes this checksum.
 .. code-block:: javascript
     :caption: *More Complex Random Mnemonic*
 
-    const utils = require('ethers/utils');
+    const ethers = require('ethers');
 
     // Chose the length of your mnemonic:
     //   - 16 bytes => 12 words (* this example)
